@@ -1,0 +1,53 @@
+/* CSS for buttons */
+.button-container {
+  height: 45%;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wheel {
+  height: 90%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 0px 30px 1px efefef;
+}
+
+.button-wheel .select {
+  cursor: pointer;
+  position: absolute;
+  height: 37%;
+  width: 37%;
+  top: 47px;
+  left: 49px;
+  background-color: rgb(147, 143, 143);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.button-wheel .menu {
+  position: absolute;
+  top: 15px;
+  left: 5rem;
+}
+
+.button-wheel .backward {
+  position: absolute;
+  top: 87px;
+  left: 10px;
+}
+
+.button-wheel .forward {
+  position: absolute;
+  top: 87px;
+  right: 10px;
+}
+
+.button-wheel .play-pause {
+  position: absolute;
+  top: 10rem;
+  left: 5.5rem;
+}
